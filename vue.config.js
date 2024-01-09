@@ -23,5 +23,5 @@ module.exports = {
 
   publicPath: '/',
   // assetsDir: 'assets',
-  outputDir: 'C:/xampp/htdocs/sayuribuani_fe_build'
+  outputDir: 'C:/xampp/htdocs/kotaserang_monitoringummat_fe'
 };

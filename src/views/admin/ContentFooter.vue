@@ -9,7 +9,7 @@
         </ul>
       </nav>
       <div class="copyright text-center">
-        &copy; monitoring_ummat.com
+        &copy; monitoringummat.id
         <!-- <i class="fa fa-heart heart"></i> by
         <a href="https://binarcode.com" target="_blank">BinarCode</a>.
         Designed by <a href="https://www.creative-tim.com/?ref=pdf-vuejs" target="_blank">Creative Tim</a>. -->

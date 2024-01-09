@@ -81,7 +81,7 @@
                                         <card class="border-0" hover shadow body-classes="py-5">
                                             <img src="img/brand/kab serang.png" height="100" width="100" class="mr-2 mb-3"  shadow>
                                             <h6 class="text-success text-uppercase">Kabupaten Serang</h6>
-                                            <base-button tag="a" href="https://payroll.bck.co.id" type="success" class="mt-4 text-center" size="sm">
+                                            <base-button tag="a" href="https://kabserangfe.monitoringummat.id/" type="success" class="mt-4 text-center" size="sm">
                                                 PILIH <i class="fa fa-arrow-right mr-5" aria-hidden="true"></i>
                                             </base-button>
                                         </card>
@@ -90,7 +90,7 @@
                                         <card class="border-0" hover shadow body-classes="py-5">
                                             <img src="img/brand/kota cilegon.png" height="100" width="100" class="mr-2 mb-3"  shadow>
                                             <h6 class="text-warning text-uppercase">Kota Cilegon</h6>
-                                            <base-button tag="a" href="https://simpro.bck.co.id" type="warning" class="mt-4 text-center" size="sm">
+                                            <base-button tag="a" href="https://kotacilegonfe.monitoringummat.id/" type="warning" class="mt-4 text-center" size="sm">
                                                 PILIH <i class="fa fa-arrow-right mr-5" aria-hidden="true"></i>
                                             </base-button>
                                         </card>
