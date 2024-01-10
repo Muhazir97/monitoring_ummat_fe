@@ -134,7 +134,10 @@ export default {
     };
   },
   mounted(){
-    this.modalWidget.show = true;
+    // jika kota serang
+    // this.modalWidget.show = true;
+    // selain kota serang
+    this.modalWidget.show = false;
   },
   methods: {
     login() {             

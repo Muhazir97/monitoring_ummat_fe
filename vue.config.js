@@ -23,5 +23,7 @@ module.exports = {
 
   publicPath: '/',
   // assetsDir: 'assets',
-  outputDir: 'C:/xampp/htdocs/kotaserang_monitoringummat_fe'
+  // outputDir: 'C:/xampp/htdocs/kotaserang_monitoringummat_fe'
+  // outputDir: 'C:/xampp/htdocs/kabserang_monitoringummat_fe'
+  outputDir: 'C:/xampp/htdocs/kotacilegon_monitoringummat_fe'
 };

@@ -88,7 +88,7 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a href="#" target="_blank" rel="noopener">monitoringummat.id</a>
+                        <a href="https://monitoringummat.id" rel="noopener">monitoringummat.id</a>
                     </div>
                 </div>
                 <!-- <div class="col-md-6">

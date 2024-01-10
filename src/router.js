@@ -227,6 +227,7 @@ vurRouter.beforeEach((to, from, next) => {
   const authenticated = JSON.parse(localStorage.getItem('authenticated'));  
 
   if (authRequired && !authenticated) {
+      alert('Session Kamu Habis Ayo Login Lagi !!!')
       return next({
           name: 'login',
           query: {redirect: to.fullPath}
@@ -237,11 +238,12 @@ vurRouter.beforeEach((to, from, next) => {
       const auth = JSON.parse(authenticated);
       if (to.name == 'login') {
           return next({
-              name: 'login'
+              name: 'Overview'
           });
       }
       if (to.name != 'Relogin') {
           if (auth.expired) {
+              alert('Session Kamu Habis Ayo Login Lagi !!!')
               localStorage.removeItem('token');
               localStorage.setItem('authenticated', false)  
               return next({

@@ -85,7 +85,7 @@
         <!-- <card shadow> -->
             
           <!-- DPR RI -->
-          <tab-pane key="dpr_ri">
+          <!-- <tab-pane key="dpr_ri">
               <template slot="title">
                   <i class="fa fa-users mr-2"></i>DPR RI
               </template>
@@ -109,10 +109,10 @@
                 <div class="container" >
                   <line-chart :chart-data="datacollection" :width="300" :height="120"></line-chart>
                 </div>
-              </card>
+              </card> -->
 
               <!-- TOTAL AKUMULASI PER CALEG -->
-              <card class="strpied-tabled-with-hover shadow" body-classes="table-full-width table-responsive" >
+              <!-- <card class="strpied-tabled-with-hover shadow" body-classes="table-full-width table-responsive" >
                 <template slot="header">
                   <div class="row">
                     <div class="col-2">
@@ -146,10 +146,10 @@
                   </table>
                 </div>
               </card>
-          </tab-pane>
+          </tab-pane> -->
 
           <!-- DPRD PROVINSI -->
-          <tab-pane key="dprd_provinsi" @click.native="getChartDprProv">
+          <!-- <tab-pane key="dprd_provinsi" @click.native="getChartDprProv">
               <template slot="title">
                   <i class="fa fa-users mr-2"></i>DPRD PROVINSI
               </template>
@@ -173,10 +173,10 @@
                 <div class="container" >
                   <line-chart :chart-data="datacollectionDprProv" :width="300" :height="120"></line-chart>
                 </div>
-              </card>
+              </card> -->
 
               <!-- TOTAL AKUMULASI PER CALEG -->
-              <card class="strpied-tabled-with-hover shadow" body-classes="table-full-width table-responsive" >
+              <!-- <card class="strpied-tabled-with-hover shadow" body-classes="table-full-width table-responsive" >
                 <template slot="header">
                   <div class="row">
                     <div class="col-2">
@@ -210,10 +210,10 @@
                   </table>
                 </div>
               </card>
-          </tab-pane>
+          </tab-pane> -->
 
           <!-- DPRD KABUPATEN/KOTA -->
-          <tab-pane key="drpd_kota">
+          <!-- <tab-pane key="drpd_kota">
               <template slot="title">
                   <i class="fa fa-users mr-2"></i>DPRD KABUPATEN/KOTA
               </template>
@@ -237,10 +237,10 @@
                 <div class="container" >
                   <line-chart :chart-data="datacollectionDprKota" :width="300" :height="120"></line-chart>
                 </div>
-              </card>
+              </card> -->
 
               <!-- TOTAL AKUMULASI PER CALEG -->
-              <card class="strpied-tabled-with-hover shadow" body-classes="table-full-width table-responsive" >
+              <!-- <card class="strpied-tabled-with-hover shadow" body-classes="table-full-width table-responsive" >
                 <template slot="header">
                   <div class="row">
                     <div class="col-2">
@@ -274,7 +274,7 @@
                   </table>
                 </div>
               </card>
-          </tab-pane>
+          </tab-pane> -->
       <!-- </card> -->
     </tabs>
     </div>
